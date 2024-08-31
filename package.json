@@ -1,0 +1,28 @@
+{
+    "name": "company-page",
+    "version": "1.0.0",
+    "description": "Sebuah company page untuk pertama kali project",
+    "main": "/pages/overview.html",
+    "scripts": {
+        "start": "live-server public",
+        "build": "echo 'No build step defined",
+        "deploy": "vercel --prod"
+},
+"keywords": [
+    "company",
+    "website",
+    "starup",
+    "create",
+    "first",
+    "project",
+    "ideas"
+],
+    "author": "lalkyys",
+    "license": "ISC",
+    "dependencies": {
+        "sweetalert2": "11.11.0"
+    },
+    "devDependencies": {
+        "live-server": "ˆ1.2.1"
+    }
+}
