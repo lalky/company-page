@@ -44,4 +44,6 @@ module.exports = async (req, res) => {
         console.error('Gagal mengirim email:', error);
         res.status(500).json({ message: 'Terjadi kesalahan saat mengirim email.'});
     }
+
+    res.status(200).json({ message: 'Success from Vercel API!' });
 };
