@@ -12,7 +12,7 @@
     ],
     "routes": [
         {
-            "src": "/send-email",
+            "src": "/api/sendMail",
             "dest": "api/sendMail.js"
         },
         {
