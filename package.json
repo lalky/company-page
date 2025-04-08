@@ -1,9 +1,9 @@
 {
   "name": "public",
   "version": "1.0.0",
-  "main": "test.js",
+  "main": "sendMail.js",
   "scripts": {
-    "start": "node api/test.js"
+    "start": "node api/sendMail.js"
   },
   "keywords": [],
   "author": "",
