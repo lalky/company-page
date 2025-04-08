@@ -1,13 +1,8 @@
-export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ message: 'Method Not Allowed' });
+export default function handler(req, res) {
+  if (req.method === 'POST') {
+    console.log('POST request received!');
+    return res.status(200).json({ message: 'POST berhasil!' });
+  } else {
+    return res.status(405).json({ message: 'Metode tidak diizinkan' });
   }
-
-  const { nama, email, message } = req.body;
-
-  if (!nama || !email || !message) {
-    return res.status(400).json({ message: 'Semua bidang harus diisi.' });
-  }
-
-  return res.status(200).json({ message: 'Email berhasil dikirim!' });
 }
