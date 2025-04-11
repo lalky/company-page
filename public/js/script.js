@@ -40,7 +40,7 @@ async function dataSend() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
-    const url = '/api/sendMail';
+    const url = '/api/mail';
     const data = { nama: name, email: email, message: message };
 
     console.log('Mengirim data:', data);
