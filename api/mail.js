@@ -16,7 +16,7 @@ module.exports =  (req, res) => {
       }
 
       // Misalnya kamu ingin logging aja dulu (belum pakai nodemailer)
-      console.log('Data diterima:', { nama, email, message });
+      console.log('Data diterima:', { name, email, message });
 
       return res.status(200).json({ message: 'POST berhasil! Data diterima.' });
     }
