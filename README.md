@@ -28,7 +28,3 @@ Anda masih dapat mengirimkan pesan ke developer melalui form kontak. Pesan Anda 
 - ✅ Email akan diterima langsung oleh pihak pengelola.
 
 ---
-
-## 📮 Kirim Pesan
-
-Anda dapat menggunakan form kontak pada halaman yang tersedia (jika sudah diarahkan kembali) atau melalui pengujian API berikut:
